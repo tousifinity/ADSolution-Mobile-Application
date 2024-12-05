@@ -1,17 +1,28 @@
-# lab_report_02
+# ADSolution: Predict Alzheimer Disease, Patient Monitoring & Safety Using IoT
 
-A new Flutter project.
+This project leverages **IoT** technology combined with **Deep Learning** to improve the management and care of patients with Alzheimer's Disease (AD). By utilizing advanced machine learning techniques, real-time monitoring, and location tracking, the system aims to provide enhanced support to patients and caregivers.
 
-## Getting Started
+## Key Contributions
 
-This project is a starting point for a Flutter application.
+1. **Alzheimer's Disease Classification using Deep Learning**:
+   - We employ **MobileNetV2**, a powerful deep learning model, to classify Alzheimer's disease by analyzing brain MRI scans.
+   - Achieved a high accuracy rate for classification.
 
-A few resources to get you started if this is your first Flutter project:
+2. **Real-time Monitoring with IoT Devices**:
+   - Utilizes an IoT device to continuously measure and monitor **physiological** and **environmental** parameters such as:
+     - Temperature
+     - Humidity
+     - Heart rates
+     - SpO2 (Blood Oxygen Saturation)
+   - Instant notifications are sent to caregivers if any abnormal readings are detected.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. **Live GPS Tracking**:
+   - The system tracks the **real-time location** of the patient using **GPS**, ensuring that the patient remains in a safe location.
+   - In case of an emergency or if the patient deviates from the safe zone, immediate help can be provided without delay.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# ADSolution-Mobile-Application
+## Features
+
+- **MobileNetV2** for Alzheimer’s disease classification from MRI scans.
+- Real-time data collection for **physiological** and **environmental** parameters.
+- **GPS tracking** for patient location and safety.
+- **Instant caregiver notification** in case of abnormalities in data or patient location.
